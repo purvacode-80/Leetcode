@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Suggestion_System_Brute {
+public class Suggestion_System {
     public static List<List<String>> suggestedProducts(String[] products, String searchWord) {
         // Sort the products array to ensure lexicographical order
         Arrays.sort(products);  
